@@ -1,0 +1,20 @@
+h2 {
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+.col-md-6 .btn {
+  padding: 10px 5px;
+  width: 100%;
+  border: 0;
+}
+
+.row .btn-warning {
+  background-color: #ff3232;
+  color: #eee;
+}
+
+.form-actions .btn-accept {
+  background-color: var(--primary-color);
+  color: #eee;
+}

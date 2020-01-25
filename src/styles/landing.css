@@ -1,0 +1,104 @@
+
+.landing {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-gap: 10px;
+  min-height: calc(100vh - 80px);
+  background: rgba(9, 10, 10, 0.7);
+}
+
+.landing h1 {
+  text-transform: uppercase;
+  color: #eee;
+}
+
+.landing-buttons {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  justify-content: start;
+}
+
+.landing-buttons button {
+  padding: 15px;
+  border-radius: 0.125rem;
+  border: none;
+  background-color: #eee;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+  max-width: 170px;
+  font-weight: bold;
+}
+
+.landing-buttons button span {
+  display: grid;
+  justify-items: center;
+  grid-gap: 5px;
+}
+
+.landing-buttons svg {
+  font-size: 1.25rem;
+}
+
+.landing-buttons button:hover,
+.landing-buttons button:focus,
+.landing-buttons .active-button {
+  background-color: var(--primary-color);
+  color: #eee;
+}
+
+.search-document-form {
+  display: grid;
+  grid-gap: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  min-height: 235px;
+}
+
+.search-document-form div {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 10px;
+}
+
+.search-document-form input {
+  width: 100%;
+  padding: 10px 5px;
+}
+
+div.advanced-search {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  align-items: center;
+  grid-gap: 20px;
+  color: #eee;
+}
+
+div.advanced-search input[type="checkbox"] {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.upload-document-form {
+  display: grid;
+  grid-gap: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 6px;
+}
+.upload-document-form input {
+  width: 100%;
+  padding: 10px 5px;
+}
+div.upload-label {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  align-items: center;
+  grid-gap: 20px;
+  color: #eee;
+}

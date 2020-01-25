@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #41c3c4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  color: #474747;
+  font-family: "Raleway", sans-serif;
+  background-image: url("../images/background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button:focus {
+  outline: 0;
+}
+
+input:focus {
+  outline: 1px solid #333;
+}
+.MuiButton-contained {
+  background-color: #41c3c4 !important;
+  color: #fff !important;
+}

@@ -1,0 +1,35 @@
+.institution {
+  padding: 40px 0 20px 0;
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 20px;
+}
+
+.institution .side-by-side {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  grid-column-gap: 20px;
+}
+
+.institution .form-info {
+  text-align: center;
+  padding: 10px 5px;
+}
+
+.institution .red-info {
+  padding: 5px 10px;
+  color: #eee;
+  background-color: #ff6666;
+  border-radius: 5px;
+}
+
+.form-actions {
+  display: grid;
+  justify-content: space-between;
+}
+
+.form-actions .btn {
+  padding: 10px 5px;
+  border: 0;
+}

@@ -1,0 +1,18 @@
+.thesis {
+  padding: 40px 0 20px 0;
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 20px;
+}
+
+.thesis .side-by-side {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  grid-column-gap: 20px;
+}
+
+.form-actions .btn {
+  padding: 10px 5px;
+  border: 0;
+}
